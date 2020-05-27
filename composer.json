@@ -1,0 +1,10 @@
+{
+  "name": "alina/test",
+  "type": "project",
+  "description": "Test for job application",
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/"
+    }
+  }
+}
