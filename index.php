@@ -20,7 +20,7 @@ try {
     $controller->setWriter(new \App\JsonWriter());
     
     $result = $controller->process();
-
+    print $result;
 } catch(Exception $e){
     //do something
 }
